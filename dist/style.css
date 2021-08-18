@@ -21,7 +21,6 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 ul {
@@ -398,7 +397,7 @@ template {
 }
 
 .register {
-  background: url(../../img/use_your_illusion.png) repeat;
+  background: url(../img/use_your_illusion.png) repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -714,7 +713,7 @@ template {
 }
 
 .footer {
-  background: url(../../img/cartographer.png);
+  background: url(../img/cartographer.png);
   padding: 50px 0;
   line-height: 1.5;
 }
