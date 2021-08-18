@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facturacion Electrónica</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="register">
+        <a href="#" class="register__link"
+          >Crea una cuenta gratis <i class="fas fa-sign-in-alt"></i
+        ></a>
+      </div>
+      <nav class="navbar">
+        <div class="navbar__container container">
+          <a href="#" class="navbar__logo"
+            ><img src="img/logo-fact-elect.png" alt="facturación electrónica"
+          /></a>
+          <div class="navbar__menu">
+            <a href="#" class="navbar__link">Inicio</a>
+            <a href="#" class="navbar__link">Descargas</a>
+            <a href="#" class="navbar__link">Servicios</a>
+            <a href="#" class="navbar__link">Productos</a>
+            <a href="#" class="navbar__link navbar__link--destacado"
+              >Planes y precios</a
+            >
+            <a href="#" class="navbar__link">Login</a>
+          </div>
+          <div class="navbar__mobile">
+            <label for="navbar__check"><img src="img/menu.svg" alt="" /></label>
+            <input type="checkbox" id="navbar__check" class="navbar__check" />
+            <div class="navbar__mobile__items">
+              <div class="navbar__mobile__label">
+                <label for="navbar__check"
+                  ><img src="img/bx-x.svg" alt=""
+                /></label>
+              </div>
+              <a href="#" class="navbar__link navbar__link--inline">Inicio</a>
+              <a href="#" class="navbar__link navbar__link--inline"
+                >Descargas</a
+              >
+              <a href="#" class="navbar__link navbar__link--inline"
+                >Servicios</a
+              >
+              <a href="#" class="navbar__link navbar__link--inline"
+                >Productos</a
+              >
+              <a
+                href="#"
+                class="
+                  navbar__link navbar__link--inline navbar__link--destacado
+                "
+                >Planes y precios</a
+              >
+              <a href="#" class="navbar__link">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="product container">
+      <figure class="product__picture">
+        <img
+          src="./img/undraw_printing_invoices_5r4r.svg"
+          alt="facturación electrónica"
+          class="product__img"
+        />
+      </figure>
+      <div class="product__about">
+        <h2 class="product__title">Facturación Electrónica UBL 2.1</h2>
+        <div class="product__paragraph">
+          <ul>
+            <li><i class="fas fa-check"></i> Factura</li>
+            <li><i class="fas fa-check"></i> Boleta</li>
+            <li><i class="fas fa-check"></i> Nota de crédito</li>
+            <li><i class="fas fa-check"></i> Nota de débito</li>
+            <li><i class="fas fa-check"></i> Resumen de Boleta</li>
+            <li><i class="fas fa-check"></i> Baja de factura</li>
+            <li><i class="fas fa-check"></i> Guía de remisión</li>
+          </ul>
+        </div>
+        <a href="" class="product__cta"
+          >Conoce más <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="product container">
+      <figure class="product__picture product__picture--left">
+        <img
+          src="./img/undraw_Charts_re_5qe9.svg"
+          alt="ERP facturación electrónica"
+          class="product__img"
+        />
+      </figure>
+      <div class="product__about product__about--left">
+        <h2 class="product__title">ERP Facturación Electrónica UBL 2.1</h2>
+        <div class="product__paragraph">
+          <ul>
+            <li><i class="fas fa-check"></i> Ventas</li>
+            <li><i class="fas fa-check"></i> Compras</li>
+            <li><i class="fas fa-check"></i> Inventario</li>
+            <li><i class="fas fa-check"></i> Guía de remisión</li>
+            <li><i class="fas fa-check"></i> Libros electrónicos</li>
+          </ul>
+        </div>
+        <a href="" class="product__cta"
+          >Comienza la experiencia <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2 class="title-section">Ahorra tiempo con nosotros</h2>
+      <div class="features__grid">
+        <div class="features__item">
+          <div class="features__head">
+            <div class="features__item-title">
+              <h3>ERP- Facturación electrónica</h3>
+              <p>S/.900</p>
+            </div>
+            <p class="features__paragraph">
+              La mejor opción para gestionar tu negocio
+            </p>
+          </div>
+          <div class="features__main">
+            <div class="features__text">
+              <p>Modulos:</p>
+              <ul class="features__feature">
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />
+                  Clientes
+                </li>
+                <li><img src="./img/bxs-check-circle.svg" />Proveedores</li>
+                <li><img src="./img/bxs-check-circle.svg" />Productos</li>
+                <li><img src="./img/bxs-check-circle.svg" />Ventas</li>
+                <li><img src="./img/bxs-check-circle.svg" />Compras</li>
+                <li><img src="./img/bxs-check-circle.svg" />Inventario</li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />Multiples almacenes
+                </li>
+                <li><img src="./img/bxs-check-circle.svg" />Usuarios</li>
+                <li><img src="./img/bxs-check-circle.svg" />Sucursales</li>
+                <li><img src="./img/bxs-check-circle.svg" />Series</li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />Reporte de stock
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />Registro de compras y
+                  ventas PLE
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />PDF(A4) y ticket
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />Logo personalizado
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" class="features__cta">Ver detalle</button>
+          </div>
+        </div>
+        <div class="features__item">
+          <div class="features__head">
+            <div class="features__item-title">
+              <h3>Certificados digitales</h3>
+              <p>S/.270</p>
+            </div>
+            <p class="features__paragraph">Planes anuales</p>
+          </div>
+          <div class="features__main">
+            <div class="features__text">
+              <p>Requerimientos:</p>
+              <ul class="features__feature">
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />
+                  Contar con un número RUC como Persona Jurídica o Persona
+                  Natural
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />
+                  Emitido a nombre de un representante legal de su empresa.
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />Permiten firmar
+                  documentos XML (UBL)
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />
+                  Compatible con el FACTURADOR SUNAT, sistemas propios y
+                  terceros.
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />
+                  Contaras con tu certificado de manera inmediata luego de
+                  validada la identidad del solicitante
+                </li>
+
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />Registro de compras y
+                  ventas PLE
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />PDF(A4) y ticket
+                </li>
+                <li>
+                  <img src="./img/bxs-check-circle.svg" />Logo personalizado
+                </li>
+              </ul>
+            </div>
+
+            <button type="button" class="features__cta">Ver detalle</button>
+          </div>
+        </div>
+        <div class="features__item">
+          <div class="features__head">
+            <div class="features__item-title">
+              <h3>Hosting Web</h3>
+              <p>S/.279</p>
+            </div>
+            <p class="features__paragraph">Ten presencia en internet</p>
+          </div>
+          <div class="features__main">
+            <div class="features__text">
+              <p>Modalidades:</p>
+              <ul class="features__feature">
+                <li><img src="./img/bxs-check-circle.svg" />Plan Básico</li>
+                <li><img src="./img/bxs-check-circle.svg" />Plan intermedio</li>
+              </ul>
+            </div>
+            <button type="button" class="features__cta">Ver detalle</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <h2 class="title-section">Empresas asesoradas</h2>
+        <div class="clients__grid">
+          <figure class="clients__figure">
+            <img src="./img/clients/client1.jpeg" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client2.png" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client3.jpeg" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client1.jpeg" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client2.png" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client3.jpeg" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client1.jpeg" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client2.png" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client3.jpeg" alt="" class="clients__img" />
+          </figure>
+          <figure class="clients__figure">
+            <img src="./img/clients/client1.jpeg" alt="" class="clients__img" />
+          </figure>
+        </div>
+        <div class="clients__footer">
+          <a href="#" class="clients__more"
+            >Ver todos <i class="fas fa-angle-double-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__data">
+          <div class="footer__social">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                <title>facebook</title>
+                <path
+                  fill="#FFF"
+                  d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20">
+                <title>YouTube</title>
+                <path
+                  fill="#FFF"
+                  d="M10.333 0c-5.522 0-10 4.478-10 10 0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.701 14.077c-1.752.12-5.653.12-7.402 0C4.735 13.947 4.514 13.018 4.5 10c.014-3.024.237-3.947 2.132-4.077 1.749-.12 5.651-.12 7.402 0 1.898.13 2.118 1.059 2.133 4.077-.015 3.024-.238 3.947-2.133 4.077zM8.667 8.048l4.097 1.949-4.097 1.955V8.048z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="footer__menu">
+            <a href="#">¿Quiénes somos?</a>
+          </div>
+          <div class="footer__contact">
+            <p>Contactanos:</p>
+            <p><i class="fab fa-whatsapp"></i> 925 942 614 / 991 441 592</p>
+            <a href="mailto: webmaster@crevperu.com"
+              ><i class="far fa-envelope"></i> webmaster@crevperu.com</a
+            >
+          </div>
+        </div>
+        <div class="footer__copyright">©Facturación electrónica 2021</div>
+      </div>
+    </footer>
+  </body>
+</html>

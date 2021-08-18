@@ -1,0 +1,40 @@
+.footer {
+  background: url(../../img/cartographer.png);
+  padding: 50px 0;
+  line-height: 1.5;
+
+  @include breakpoint-down(small) {
+    padding: 20px 0;
+  }
+
+  & a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #fff;
+
+    @include breakpoint-down(small) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__data {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+
+    @include breakpoint-down(small) {
+      gap: 10px;
+    }
+  }
+
+  &__copyright {
+    font-size: 12px;
+  }
+}
