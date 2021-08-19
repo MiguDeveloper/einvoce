@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>API Facturacion Electrónica</title>
+    <title>ERP Facturacion Electrónica</title>
     <link rel="stylesheet" href="./dist/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,18 +23,18 @@
   <body>
     <header class="header">
       <div class="register">
-        <a href="#" class="register__link"
+        <a href="index.html" class="register__link"
           >Crea una cuenta gratis <i class="fas fa-sign-in-alt"></i
         ></a>
       </div>
       <nav class="navbar">
         <div class="navbar__container container">
-          <a href="#" class="navbar__logo"
+          <a href="index.html" class="navbar__logo"
             ><img src="img/logo-fact-elect.png" alt="facturación electrónica"
           /></a>
           <div class="navbar__menu">
-            <a href="#" class="navbar__link">Inicio</a>
-            <a href="#" class="navbar__link">Descargas</a>
+            <a href="index.html" class="navbar__link">Inicio</a>
+            <a href="api-descargas.html" class="navbar__link">Descargas</a>
             <a href="#" class="navbar__link">Servicios</a>
             <a href="#" class="navbar__link">Productos</a>
             <a href="#" class="navbar__link navbar__link--destacado"
@@ -51,8 +51,12 @@
                   ><img src="img/bx-x.svg" alt=""
                 /></label>
               </div>
-              <a href="#" class="navbar__link navbar__link--inline">Inicio</a>
-              <a href="#" class="navbar__link navbar__link--inline"
+              <a href="index.html" class="navbar__link navbar__link--inline"
+                >Inicio</a
+              >
+              <a
+                href="api-descargas.html"
+                class="navbar__link navbar__link--inline"
                 >Descargas</a
               >
               <a href="#" class="navbar__link navbar__link--inline"
@@ -76,75 +80,19 @@
     </header>
 
     <div class="pages container">
-      <h1 class="pages__title">
-        API - Facturación electrónica planes y precios
-      </h1>
+      <h1 class="pages__title">Certificado digital planes y precios</h1>
       <div class="planes">
-        <div class="planes__plan">
-          <div class="planes__pricebox">
-            <h3 class="planes__title">Plan Básico</h3>
-            <p class="planes__precio">S/.35.00</p>
-          </div>
-          <div class="planes__info">
-            <ul>
-              <li>
-                5000 comprobantes
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="planes__check"
-                >
-                  <path
-                    d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"
-                  />
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="planes__btn">
-            <a href="#" class="planes__cta">Elegir plan</a>
-          </div>
-        </div>
-        <div class="planes__plan">
-          <div class="planes__pricebox">
-            <h3 class="planes__title">Plan Intermedio</h3>
-            <p class="planes__precio">S/.50.00</p>
-          </div>
-          <div class="planes__info">
-            <ul>
-              <li>
-                20000 comprobantes
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="planes__check"
-                >
-                  <path
-                    d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"
-                  />
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="planes__btn">
-            <a href="#" class="planes__cta">Elegir plan</a>
-          </div>
-        </div>
         <div class="planes__plan planes__plan--active">
           <div class="planes__pricebox">
-            <h3 class="planes__title planes__title--active">Plan Avanzado</h3>
-            <p class="planes__precio planes__precio--active">S/.75.00</p>
+            <h3 class="planes__title planes__title--active">
+              Certificados digitales
+            </h3>
+            <p class="planes__precio planes__precio--active">S/.270.00</p>
           </div>
           <div class="planes__info planes__info--active">
             <ul>
               <li>
-                50000 comprobantes
+                Licencia de 1 año.
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -162,33 +110,6 @@
           </div>
           <div class="planes__btn">
             <a href="#" class="planes__cta planes__cta--active">Elegir plan</a>
-          </div>
-        </div>
-        <div class="planes__plan">
-          <div class="planes__pricebox">
-            <h3 class="planes__title">Plan Ilimitado</h3>
-            <p class="planes__precio"></p>
-          </div>
-          <div class="planes__info">
-            <ul>
-              <li>
-                Comprobantes ilimitados<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="planes__check"
-                >
-                  <path
-                    d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"
-                  />
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="planes__btn">
-            <a href="#" class="planes__cta">Elegir plan</a>
           </div>
         </div>
       </div>

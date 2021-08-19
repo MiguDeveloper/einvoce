@@ -4,11 +4,12 @@
 }
 
 .register {
-  background: url(../img/use_your_illusion.png) repeat;
+  background: #262626;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+  min-height: 54px;
 
   &__link {
     color: white;
@@ -25,6 +26,7 @@
 .navbar {
   background: #e5e1e0;
   padding: 10px 0;
+  min-height: 74px;
 
   &__container {
     display: flex;

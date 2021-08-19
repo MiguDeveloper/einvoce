@@ -75,14 +75,14 @@
   &__cta {
     display: block;
     width: 100%;
-    background: #503047;
+    background: var(--color-blue);
     color: #fff;
-    border: none;
     padding: 14px 0;
     font-family: var(--font);
     font-size: 1rem;
     border-radius: 7px;
     margin-top: 2rem;
-    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
   }
 }

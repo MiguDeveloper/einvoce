@@ -52,11 +52,14 @@ ul {
 .pages {
   margin-top: 40px;
   margin-bottom: 40px;
-  min-height: calc(100vh - 350px);
+  min-height: calc(100vh - 302px);
 }
 .pages__title {
   font-size: 2rem;
   padding-bottom: 1.5rem;
+}
+.pages__content {
+  margin-top: 20px;
 }
 
 .planes {
@@ -76,6 +79,7 @@ ul {
 .planes__plan--active {
   border: 2px solid var(--color-blue);
   background: var(--color-blue);
+  max-width: 350px;
 }
 .planes__pricebox {
   margin-bottom: 30px;
@@ -135,6 +139,43 @@ ul {
 .planes__check {
   color: var(--color-blue) .planes__check --active;
   color-color: white;
+}
+
+.apis {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  justify-content: space-between;
+}
+.apis__language {
+  background: var(--grey-color);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+.apis__language:hover {
+  background: var(--color-blue);
+}
+.apis__language:hover .apis__description {
+  color: white;
+}
+.apis__picture {
+  width: 100%;
+  height: 180px;
+}
+.apis__img {
+  width: 100%;
+  height: 100%;
+}
+.apis__description {
+  font-size: 20px;
+  color: var(--color-dark);
+  font-weight: 600;
+  text-align: center;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -490,11 +531,12 @@ template {
 }
 
 .register {
-  background: url(../img/use_your_illusion.png) repeat;
+  background: #262626;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+  min-height: 54px;
 }
 .register__link {
   color: white;
@@ -509,6 +551,7 @@ template {
 .navbar {
   background: #e5e1e0;
   padding: 10px 0;
+  min-height: 74px;
 }
 .navbar__container {
   display: flex;
@@ -757,15 +800,15 @@ template {
 .features__cta {
   display: block;
   width: 100%;
-  background: #503047;
+  background: var(--color-blue);
   color: #fff;
-  border: none;
   padding: 14px 0;
   font-family: var(--font);
   font-size: 1rem;
   border-radius: 7px;
   margin-top: 2rem;
-  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 .clients {
@@ -806,7 +849,7 @@ template {
 }
 
 .footer {
-  background: url(../img/cartographer.png);
+  background: #333;
   padding: 27px 0;
   line-height: 1.5;
 }
