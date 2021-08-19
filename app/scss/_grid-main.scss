@@ -1,0 +1,28 @@
+.gridmain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+
+  &__box {
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 0.3125rem 0.3125rem;
+  }
+
+  &__head {
+    background: rgb(0, 21, 93);
+    color: white;
+    padding: 40px 0 40px 40px;
+  }
+
+  &__body {
+    padding: 40px;
+
+    ul li {
+      display: flex;
+    }
+  }
+}
+
+.li__check {
+  flex-shrink: 0;
+}
