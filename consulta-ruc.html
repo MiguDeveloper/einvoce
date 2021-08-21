@@ -35,7 +35,7 @@
           <div class="navbar__menu">
             <a href="index.html" class="navbar__link">Inicio</a>
             <a href="api-descargas.html" class="navbar__link">Descargas</a>
-            <a href="consulta-ruc.html" class="navbar__link">Servicios</a>
+            <a href="#" class="navbar__link">Servicios</a>
             <a
               href="codigo-fuente-facturacion-electronica-php.html"
               class="navbar__link"
@@ -63,9 +63,7 @@
                 class="navbar__link navbar__link--inline"
                 >Descargas</a
               >
-              <a
-                href="consulta-ruc.html"
-                class="navbar__link navbar__link--inline"
+              <a href="#" class="navbar__link navbar__link--inline"
                 >Servicios</a
               >
               <a
@@ -88,121 +86,89 @@
     </header>
 
     <div class="pages container">
-      <h1 class="pages__title">
-        API - Facturación electrónica planes y precios
-      </h1>
-      <div class="planes">
-        <div class="planes__plan">
-          <div class="planes__pricebox">
-            <h3 class="planes__title">Plan Básico</h3>
-            <p class="planes__precio">S/.35.00</p>
-          </div>
-          <div class="planes__info">
-            <ul>
-              <li>
-                5000 comprobantes
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="planes__check"
-                >
-                  <path
-                    d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"
+      <h1 class="pages__title">Demo de Consulta RUC</h1>
+      <div class="pages__content">
+        <section class="gridmain">
+          <div class="gridmain__box">
+            <div class="gridmain__body">
+              <form class="form">
+                <div class="form-group">
+                  <label class="form-label" for="numeroRuc"
+                    >Ingresa el número de RUC</label
+                  >
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="numeroRuc"
+                    id="numeroRuc"
+                    placeholder="Número de RUC"
                   />
-                </svg>
-              </li>
-            </ul>
+                </div>
+              </form>
+              <div class="form-description">
+                <p>
+                  Si deseas contar con el <u>servicio de Consulta RUC</u> en tu
+                  propio sistema puedes contáctarnos a tráves del whatsapp o al
+                  correo:
+                </p>
+                <p><i class="fab fa-whatsapp"></i> <u>925 942 614</u></p>
+                <p>
+                  <i class="far fa-envelope"></i> <u>zy.jose.luis@gmail.com</u>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="planes__btn">
-            <a href="#" class="planes__cta">Elegir plan</a>
+          <div class="gridmain__box">
+            <div class="gridmain__body">
+              <form class="form">
+                <div class="form-group">
+                  <label class="form-label">Número de RUC</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Razón social</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Teléfono</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Condición</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Nombre comercial</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Tipo</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Inscripción</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Estado</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Dirección</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Actividad en el exterior</label>
+                  <input class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Oficio</label>
+                  <input class="form-control" type="text" />
+                </div>
+              </form>
+            </div>
           </div>
-        </div>
-        <div class="planes__plan">
-          <div class="planes__pricebox">
-            <h3 class="planes__title">Plan Intermedio</h3>
-            <p class="planes__precio">S/.50.00</p>
-          </div>
-          <div class="planes__info">
-            <ul>
-              <li>
-                20000 comprobantes
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="planes__check"
-                >
-                  <path
-                    d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"
-                  />
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="planes__btn">
-            <a href="#" class="planes__cta">Elegir plan</a>
-          </div>
-        </div>
-        <div class="planes__plan planes__plan--active">
-          <div class="planes__pricebox">
-            <h3 class="planes__title planes__title--active">Plan Avanzado</h3>
-            <p class="planes__precio planes__precio--active">S/.75.00</p>
-          </div>
-          <div class="planes__info planes__info--active">
-            <ul>
-              <li>
-                50000 comprobantes
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="planes__check planes__check--info"
-                >
-                  <path
-                    d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"
-                  />
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="planes__btn">
-            <a href="#" class="planes__cta planes__cta--active">Elegir plan</a>
-          </div>
-        </div>
-        <div class="planes__plan">
-          <div class="planes__pricebox">
-            <h3 class="planes__title">Plan Ilimitado</h3>
-            <p class="planes__precio"></p>
-          </div>
-          <div class="planes__info">
-            <ul>
-              <li>
-                Comprobantes ilimitados<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="planes__check"
-                >
-                  <path
-                    d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"
-                  />
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="planes__btn">
-            <a href="#" class="planes__cta">Elegir plan</a>
-          </div>
-        </div>
+        </section>
       </div>
     </div>
 

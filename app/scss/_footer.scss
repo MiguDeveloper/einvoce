@@ -18,6 +18,11 @@
     align-items: flex-end;
     color: #fff;
 
+    @include breakpoint-down(medium) {
+      flex-direction: column;
+      gap: 20px;
+    }
+
     @include breakpoint-down(small) {
       flex-direction: column;
       align-items: flex-start;
@@ -31,6 +36,7 @@
 
     @include breakpoint-down(small) {
       gap: 10px;
+      flex-direction: column;
     }
   }
 
